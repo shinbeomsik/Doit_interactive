@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main:nth-of-type(1) {
+    width: 100%; /*%는 부모 태그를 기준으로 너비값과 높잇값을 %단위로 지정*/
+    height: 300px;
+    background: red;
+}
+
+.ex11 {
+    border: 10px solid blue;
+}
+
+.ex1 {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border: 1px solid #000;
+}
+
+main:nth-of-type(2) {
+    width: 100%; /*%는 부모 태그를 기준으로 너비값과 높잇값을 %단위로 지정*/
+    height: 300px;
+    background: orange;
+}
+
+.ex22 {
+    border: 10px solid blue;
+    display: flex; /* 부모요소의 너비를 따라감*/
+}
+
+.ex2 {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border: 1px solid #000;
+}
+
+main:nth-of-type(3) {
+    width: 100%; /*%는 부모 태그를 기준으로 너비값과 높잇값을 %단위로 지정*/
+    height: 300px;
+    background: yellow;
+}
+
+.ex33 {
+    border: 10px solid blue;
+    display: inline-flex;  /*자식 요소의 너비를 너비를 그대로 나타냄*/
+}
+
+.ex3 {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border: 1px solid #000;
+}
+/*    */
+main:nth-of-type(4) {
+    width: 100%; /*%는 부모 태그를 기준으로 너비값과 높잇값을 %단위로 지정*/
+    height: 300px;
+    background: green;
+}
+
+.ex44 {
+    border: 10px solid blue;
+    display: inline-flex;  /*자식 요소의 너비를 너비를 그대로 나타냄*/
+    flex-direction: column; /* row 으로 쓰면 ex.33과 똑같아짐!*/
+}
+
+.ex4 {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border: 1px solid #000;
+}
+
+/*   개발자 모드로 웹 사이즈를 줄이면 바꿔어짐  */
+
+main:nth-of-type(5) {
+    width: 100%; /*%는 부모 태그를 기준으로 너비값과 높잇값을 %단위로 지정*/
+    height: 300px;
+    background: blue;
+}
+
+.ex55 {
+    width: 100%;
+    border: 10px solid #000;
+    box-sizing: border-box;
+    display: flex;
+
+    /* 이 2개를  */
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* flex-flow: row wrap;  <== 이거처럼 나타낼수 있음*/
+    
+}
+
+.ex5 {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border: 1px solid #000;
+}
+
+
