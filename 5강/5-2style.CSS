@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+main {
+    width: 100%;
+    height: 400px;
+    background: green;
+}
+
+.ex1 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.ex2 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.ex3 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.ex4 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.ex5 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.ex6 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.ex7 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap; 
+    justify-content: space-evenly;
+}
+
+.ex8 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap; 
+    align-items: center;
+}
+
+.ex9 {
+    width: 100%;
+    height: 100%;
+    border: 10px solid blue;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap; 
+    align-content: center;
+}
+section article {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border: 1px solid #000;
+}
