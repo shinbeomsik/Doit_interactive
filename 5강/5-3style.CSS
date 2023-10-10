@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ex11 {
+    width: 100%;
+    background: lightcyan;
+    display: flex;
+    gap: 10px;
+}
+
+.ex22 {
+    width: 100%;
+    background: lightcyan;
+    display: flex;
+   
+}
+section article {
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    border: 1px solid #000;
+    font-size: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;  /* 자식 요소를 가운데 정렬*/
+    align-items: center; /* 줄 바꿈이 필요 없고  자식 요소를 가운데 정렬*/
+    
+}
+
+.ex1-1 {
+    background: yellow;
+}
+
+.ex1-2 {
+    background: green;
+}
+
+.ex1-3 {
+    background:  blue;
+}
+
+.ex1-4 {
+    background: navy;
+}
+
+.ex1-5 {
+    background: purple;
+}
+
+.ex1-6 {
+    background: red;
+}
+.ex1-7 {
+    background: orange;
+}
+
+/*        =====      */
+.ex2-1 {
+    background: yellow;
+    order:  3;
+    
+}
+
+.ex2-2 {
+    background: green;
+    order:  4;
+}
+
+.ex2-3 {
+    background:  blue;
+    order:  5;
+}
+
+.ex2-4 {
+    background: navy;
+    order:  6;
+}
+
+.ex2-5 {
+    background: purple;
+    order:  7;
+}
+
+.ex2-6 {
+    background: red;
+    order:  1;
+}
+.ex2-7 {
+    background: orange;
+    order:  2;
+}
