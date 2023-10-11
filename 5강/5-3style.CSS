@@ -7,7 +7,7 @@
     width: 100%;
     background: lightcyan;
     display: flex;
-    gap: 10px;
+    gap: 10px;  /* 자식 속성들만 10px만큼 떨어져있음*/
 }
 
 .ex22 {
@@ -25,7 +25,7 @@ section article {
     color: #fff;
     display: flex;
     justify-content: center;  /* 자식 요소를 가운데 정렬*/
-    align-items: center; /* 줄 바꿈이 필요 없고  자식 요소를 가운데 정렬*/
+    align-items: center; /* 줄 바꿈이 필요 없고  자식 요소를 가운데 정렬하기위해*/
     
 }
 

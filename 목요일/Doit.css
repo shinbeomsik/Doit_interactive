@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    display: flex;
+    perspective: 500px;
+    gap: 25px;
+}
+
+.ex1-1{
+    width: 25px;
+    height: 25px;
+    background: green;
+    animation: rotation 5s linear 1 0s;
+}
+
+@keyframes rotation {
+    0% {
+        transform: translateX(0px) translateY(0px) ; 
+    }
+    50% {
+        transform: translateX(225px) translateY(225px);
+    }
+    100%{
+        transform: translateX(0px) translateY(475px);
+    }
+}
+/* ================================== */
+.ex1-2{
+    width: 25px;
+    height: 25px;
+    background: red;
+    animation: rotation2 5s linear 1 0s;
+}
+
+
+@keyframes rotation2 {
+    0% {
+        transform: translateX(0px) scale(1);
+    }
+    50% {
+        transform: translateY(450px) scale(2);
+    }
+    100%{
+        transform: translateY(450px) scale(3);
+    }
+}
+/* ================================== */
+.ex1-3{
+    width: 25px;
+    height: 25px;
+    background: yellow;
+    animation: rotation3 5s linear 1 0s;
+}
+@keyframes rotation3 {
+    0% {
+        transform: translateX(0px) rotateX(0deg);
+    }
+    50% {
+        transform: translateY(475px) rotateX(180deg);
+    }
+    100%{
+        transform: translateY(475px) rotateX(360deg);
+    }
+}
+/* ================================== */
+.ex1-4{
+    width: 25px;
+    height: 25px;
+    background: blue;
+    animation: rotation4 5s linear 1 0s;
+}
+
+@keyframes rotation4 {
+    0% {
+        transform: translateX(0px) rotateY(0deg);
+    }
+    50% {
+        transform: translateY(475px) rotateY(180deg);
+    }
+    100%{
+        transform: translateY(475px) rotateY(360deg);
+    }
+}
+/* ================================== */
+.ex1-5{
+    width: 25px;
+    height: 25px;
+    background: rgb(200, 1, 230);
+    animation: rotation5 5s linear 1 0s;
+}
+
+@keyframes rotation5 {
+    0% {
+        transform: translateX(0px) skewX(0deg);
+    }
+    50% {
+        transform: translateY(475px) skewX(180deg);
+    }
+    100%{
+        transform: translateY(475px)skewX(360deg);
+    }
+}
+
+/* ================================== */
+.ex1-6{
+    width: 25px;
+    height: 25px;
+    background: #234212;
+    animation: rotation6 5s linear 1 0s;
+}
+
+@keyframes rotation6 {
+    0% {
+        transform: translateX(0px) skewY(0deg) ;
+    }
+    50% {
+        transform: translateY(475px) skewY(180deg);
+    }
+    100%{
+        transform: translateY(475px) skewY(360deg);
+    }
+}
+
+/* ================================== */
+.ex1-7{
+    width: 25px;
+    height: 25px;
+    background: rgb(99 , 21, 3);
+    animation: rotation7 5s linear 1 0s;
+}
+
+@keyframes rotation7 {
+    0% {
+        transform: translateX(0px)  ;
+    }   
+    50% {
+        transform: translateY(475px);
+    }
+    100%{
+        transform: translateY(475px);
+    }
+}
+
+
+
+
+
+
+
+
