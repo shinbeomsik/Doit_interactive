@@ -1,0 +1,77 @@
+section {
+    width: 100%;
+    background: lightcyan;
+    display: flex;
+}
+
+.cl1 {
+    background: aqua;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+}
+
+.cl2 {
+    width: 150px;
+    background: aqua;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+}
+
+.cl3 {
+    width: 150px;
+    background: aqua;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+}
+#ex0 {
+    flex-grow: 0; /*원래 크기*/
+}
+
+#ex1 {
+    flex-grow: 0; /*원래 크기*/
+}
+
+#ex2{
+    flex-grow: 1; /*1배 증가*/
+}
+
+#ex3{
+    flex-grow: 2; /*2배 증가*/
+}
+
+#ex4{
+    flex-grow: 3; /*3배 증가*/
+}
+
+#ex5{
+    flex-shrink: 1; 
+}
+
+#ex6{
+    flex-shrink: 4; 
+}
+
+#ex7{
+    flex-shrink: 9; 
+}
+#ex8{
+    flex: 1; 
+}
+
+#ex9{
+    flex: 2; 
+}
+
+#ex10{
+    flex: 3; 
+}
+
