@@ -13,8 +13,8 @@ section {
 }
 
 .ex1-1{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background: green;
     animation: rotation 5s linear 1 0s;
 }
@@ -32,10 +32,10 @@ section {
 }
 /* ================================== */
 .ex1-2{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background: red;
-    animation: rotation2 5s linear 1 0s;
+    animation: rotation2 5s ease-in 1 0s;
 }
 
 
@@ -52,10 +52,10 @@ section {
 }
 /* ================================== */
 .ex1-3{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background: yellow;
-    animation: rotation3 5s linear 1 0s;
+    animation: rotation3 5s ease-out 1 0s;
 }
 @keyframes rotation3 {
     0% {
@@ -70,8 +70,8 @@ section {
 }
 /* ================================== */
 .ex1-4{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background: blue;
     animation: rotation4 5s linear 1 0s;
 }
@@ -89,8 +89,8 @@ section {
 }
 /* ================================== */
 .ex1-5{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background: rgb(200, 1, 230);
     animation: rotation5 5s linear 1 0s;
 }
@@ -109,14 +109,14 @@ section {
 
 /* ================================== */
 .ex1-6{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     background: #234212;
     animation: rotation6 5s linear 1 0s;
 }
 
 @keyframes rotation6 {
-    0% {
+    0% {    
         transform: translateX(0px) skewY(0deg) ;
     }
     50% {
@@ -127,25 +127,6 @@ section {
     }
 }
 
-/* ================================== */
-.ex1-7{
-    width: 25px;
-    height: 25px;
-    background: rgb(99 , 21, 3);
-    animation: rotation7 5s linear 1 0s;
-}
-
-@keyframes rotation7 {
-    0% {
-        transform: translateX(0px)  ;
-    }   
-    50% {
-        transform: translateY(475px);
-    }
-    100%{
-        transform: translateY(475px);
-    }
-}
 
 
 
