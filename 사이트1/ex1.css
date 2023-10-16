@@ -1,0 +1,144 @@
+#main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}   
+
+.sample1 {
+    width: 10%;
+    height: 500px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    border: 2px solid #000;
+}   
+
+#ex1sample {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background: pink;
+    animation: ex1 5s linear 1s infinite;
+
+}
+#ex1sample:hover{
+    animation-play-state: paused;
+}
+@keyframes ex1 {
+    0% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(460px);
+    }
+}
+
+#ex2sample {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background: pink;
+    animation: ex2 5s linear 1s infinite;
+}
+#ex2sample:hover{
+    animation-play-state: paused;
+}
+@keyframes ex2 {
+    0% {
+        transform: translateY(0px) scale(1.0);
+    }
+    50%{
+        transform: translateY(250px) scale(2.0);
+    }
+    100%{
+        transform: translateY(410px) scale(3.5);
+    }
+}
+#ex3sample:hover{
+    animation-play-state: paused;
+}
+#ex3sample {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background: pink;
+    animation: ex3 5s linear 1s infinite;
+}
+@keyframes ex3 {
+    0% {
+        transform: translateY(0px) ;
+    }
+    50%{
+        transform: translateY(250px) rotateX(180deg);
+    }
+    100%{
+        transform: translateY(460px) rotateX(360deg);
+    }
+}
+#ex4sample:hover{
+    animation-play-state: paused;
+}
+#ex4sample {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background: pink;
+    animation: ex4 5s linear 1s infinite;
+}
+@keyframes ex4 {
+    0% {
+        transform: translateY(0px) ;
+    }
+    50%{
+        transform: translateY(250px) rotateY(180deg);
+    }
+    100%{
+        transform: translateY(460px) rotateY(360deg);
+    }
+}
+#ex5sample:hover{
+    animation-play-state: paused;
+}
+#ex5sample {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background: pink;
+    animation: ex5 5s linear 1s infinite;
+}
+@keyframes ex5 {
+    0% {
+        transform: translateY(0px) ;
+    }
+    50%{
+        transform: translateY(250px) skewX(180deg);
+    }
+    100%{
+        transform: translateY(460px) skewX(360deg);
+    }
+}
+#ex6sample:hover{
+    animation-play-state: paused;
+}
+#ex6sample {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background: pink;
+    animation: ex6 5s linear 1s infinite;
+}
+@keyframes ex6 {
+    0% {
+        transform: translateY(0px) ;
+    }
+    50%{
+        transform: translateY(250px) skewY(180deg);
+    }
+    100%{
+        transform: translateY(460px) skewY(360deg);
+    }
+}
