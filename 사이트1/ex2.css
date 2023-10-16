@@ -1,5 +1,182 @@
-svg1 {
-    width: 100px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}   
+
+/* ======================================== */
+#svg1 {
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.svgex1 {
+    width: 195px;
+    height: 200px;
+    align-items: center;
+    border: 2px solid #000;
+   
+}
+#svgex1-1 {
+    fill: transparent; /* 이 값은 배경색을 투명으로 바꿔줌*/
+    stroke: black;
+    stroke-width: 4;
+}
+
+#svgex1-2 svg path{
+    fill: transparent ; /* 이 값은 배경색을 투명으로 바꿔줌*/
+    stroke: blue;
+    stroke-width: 1;
+    stroke-dasharray: 2897;
+    stroke-dashoffset: 2897;
+    animation: ex1-2 7s linear infinite;
+}
+@keyframes ex1-2 {
+    0%{
+        stroke-dashoffset: 2897;
+    }
+    50%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 2987;
+    }
+}
+
+#svgex1-2:hover svg path{
+    animation-play-state: paused;
+}
+
+#svgex1-3 svg path {
+    fill: transparent; /* 이 값은 배경색을 투명으로 바꿔줌*/
+    stroke: green;
+    stroke-width: 1;
+    stroke-dasharray: 2897;
+    stroke-dashoffset: 2897;
+    transition:  all 7s ;
+    animation: ex1-3 7s linear infinite;
+}
+@keyframes ex1-3 {
+    0%{
+        stroke-dashoffset: 2897;
+    }
+    50%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: -2987;
+    }
+}
+
+#svgex1-3:hover svg path{
+    animation-play-state: paused;
+}
+
+
+/* ============================= */
+#svg2 {
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.svgex2 {
+    width: 225px;
     height: 200px;
     border: 2px solid #000;
+}
+
+#svgex2-1 {
+    fill: currentColor; 
+    stroke: black;
+    stroke-width: 4;
+    opacity: 0.1;
+    animation: ex2-1 7s linear infinite;
+}
+
+@keyframes ex2-1 {
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#svgex2-1:hover {
+    animation-play-state: paused;
+}
+
+#svgex2-2 svg path{
+    fill: transparent; /* 이 값은 배경색을 투명으로 바꿔줌*/
+    stroke: black;
+    stroke-width: 4;
+    stroke-dasharray: 4740;
+    stroke-dashoffset: 4740;
+    animation: ex2-2 6s ease infinite;
+}
+
+@keyframes ex2-2 {
+    0%{
+        opacity: 1;
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+    }
+
+    50%{
+        opacity: 0;
+        stroke-dasharray: 4740;
+        stroke-dashoffset: 4740;
+    }
+    100%{
+        opacity: 1;
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+    }
+}
+
+#svgex2-2:hover svg path {
+    animation-play-state: paused;
+}
+
+#svgex2-3 svg path{
+    fill: transparent; /* 이 값은 배경색을 투명으로 바꿔줌*/
+    stroke: black;
+    stroke-width: 4;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 4740;
+    animation: ex2-3 6s ease infinite;
+}
+
+@keyframes ex2-3 {
+    0%{
+        stroke-dashoffset: 0;
+    }
+
+    50%{
+        stroke-dashoffset: 4740;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+#svgex2-3:hover svg path {
+    animation-play-state: paused;
 }
