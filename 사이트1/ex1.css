@@ -1,7 +1,7 @@
 #main {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-flow: row wrap; /* flex-direction , flex-wrap 속성을 합쳐놓은 약식 속성*/
+    justify-content: center;  /*자식 요소를 가운데 정렬*/
 }   
 
 .sample1 {
@@ -21,14 +21,17 @@
     border: 2px solid #000;
     background: pink;
     animation: ex1 5s linear 1s infinite;
-
+         /* ex1이라는 애니메이션을 5초를 한 세트로 등속도로 1초의 지연시간후  */
 }
+
 #ex1sample:hover{
-    animation-play-state: paused;
+    animation-play-state: paused; 
+    /* 마우스를 위에 올려두면 멈춤 */
 }
 @keyframes ex1 {
     0% {
-        transform: translateY(0px);
+        transform: translateY(0px);  
+        /* Y축으로만 이동 */
     }
     50%{
         transform: translateY(250px);
@@ -51,6 +54,7 @@
 @keyframes ex2 {
     0% {
         transform: translateY(0px) scale(1.0);
+        /* Y축으로 이동하면서 점점 커짐 */
     }
     50%{
         transform: translateY(250px) scale(2.0);
@@ -75,6 +79,7 @@
     }
     50%{
         transform: translateY(250px) rotateX(180deg);
+        /* Y축으로 내려가면서 X축으로 회전 */
     }
     100%{
         transform: translateY(460px) rotateX(360deg);
@@ -96,6 +101,7 @@
     }
     50%{
         transform: translateY(250px) rotateY(180deg);
+        /* Y축으로 내려가면서 Y축으로 회전 */
     }
     100%{
         transform: translateY(460px) rotateY(360deg);
@@ -117,6 +123,7 @@
     }
     50%{
         transform: translateY(250px) skewX(180deg);
+        /* Y축으로 내려가면서 X축으로 비틈 */
     }
     100%{
         transform: translateY(460px) skewX(360deg);
@@ -138,6 +145,7 @@
     }
     50%{
         transform: translateY(250px) skewY(180deg);
+        /* Y축으로 내려가면서 Y축으로 비틈 */
     }
     100%{
         transform: translateY(460px) skewY(360deg);

@@ -1,8 +1,8 @@
 #header {
     width: 100%;
     height: 70px;
-    background: gray;
-    display: flex;
+    background: rgb(134, 59, 59);
+    display: flex;  /*자기자신은 블록 속성을 유지 하면서 자식에는 flex 환경 설정*/
     flex-flow: row wrap;
     font-size: 40px;
     
@@ -20,12 +20,11 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-right: 10px;
+    margin-right: 10px;  /* 오른쪽으로만 띄어쓰기(?)해줌*/
 }
 
 .navBar {
     color: beige;
     font-size: 20px;
     margin-right: 10px; 
-
 }
