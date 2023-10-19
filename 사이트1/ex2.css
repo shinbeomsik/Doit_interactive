@@ -34,7 +34,7 @@
 
 #svgex1-2 svg path{
     fill: transparent ; /* 이 값은 배경색을 투명으로 바꿔줌*/
-    stroke: blue;
+    stroke: blue; /*선색*/
     stroke-width: 1; /*선의 굵기*/
     stroke-dasharray: 2897;
     stroke-dashoffset: 2897; /*점선 처리 속성*/
