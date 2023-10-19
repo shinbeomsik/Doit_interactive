@@ -5,8 +5,8 @@
 #main {
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    flex-flow: column wrap; 
+    align-items: center;  /* 자식 요소들이 줄 바꿈이 필요없으며 가운데 정렬*/
 }   
 
 /* ======================================== */
@@ -16,7 +16,7 @@
     /* border: 2px solid #000; */
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-between; /*자식 요소의 좌우 여백만 균일하게 정렬 */
 }
 
 .svgex1 {
@@ -35,9 +35,9 @@
 #svgex1-2 svg path{
     fill: transparent ; /* 이 값은 배경색을 투명으로 바꿔줌*/
     stroke: blue;
-    stroke-width: 1;
+    stroke-width: 1; /*선의 굵기*/
     stroke-dasharray: 2897;
-    stroke-dashoffset: 2897;
+    stroke-dashoffset: 2897; /*점선 처리 속성*/
     animation: ex1-2 7s linear infinite;
 }
 @keyframes ex1-2 {
@@ -59,7 +59,7 @@
 #svgex1-3 svg path {
     fill: transparent; /* 이 값은 배경색을 투명으로 바꿔줌*/
     stroke: green;
-    stroke-width: 1;
+    stroke-width: 1; 
     stroke-dasharray: 2897;
     stroke-dashoffset: 2897;
     transition:  all 7s ;
@@ -88,7 +88,7 @@
     height: 200px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly; /*자식 요소의 여백을 양 끝까지 포함해서 균일하게 정렬*/
 }
 
 .svgex2 {
@@ -98,7 +98,6 @@
 }
 
 #svgex2-1 {
-    fill: currentColor; 
     stroke: black;
     stroke-width: 4;
     opacity: 0.1;
@@ -107,14 +106,18 @@
 
 @keyframes ex2-1 {
     0%{
-        opacity: 1;
+        opacity: 1; /*투명도 설정 0~1까지 있다*/
+        fill: red; /*SVG 의 색상 변경 가능*/
     }
 
     50%{
         opacity: 0;
+        fill: blue;
     }
+
     100%{
         opacity: 1;
+        fill: brown;
     }
 }
 
