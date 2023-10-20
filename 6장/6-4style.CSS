@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* ========================== */
+#ex1 {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#naver1 {
+    font-size: 25px;
+    color: #555;
+    margin-right: 30px;
+    
+}
+
+#naver2 {
+    font-size: 25px;
+    color: #555;
+}
+
+/* =========================== */
+
+#ex2 {
+    width: 100%;
+    height: 100px;
+}
+
+#box {
+    width: 60px;
+    height: 60px;
+    background: aqua;
+    margin: 30px auto;
+}
+
+/* =========================== */
+
+#ex3 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/* =========================== */
+
+#ex4 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+/* =========================== */
+
+#ex5-1 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#ex5-2 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background: aqua;
+    justify-content: center;
+    transition:  1s;
+
+}
+
+
