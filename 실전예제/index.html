@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인페이지</title> 
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script defer src="js/login.js"></script> 
+</head>
+<body>
+    <div id="header"> 
+        <div class="inner">
+            <h1><a href="index.html">실습페이지</a></h1>
+            
+            <ul id="gnb">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">프로필 보기</a></li>
+                <li><a href="#">내용</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="login">
+            <h2>로그인 화면</h2>
+                <label for="username">아이디:</label>
+                <input type="text" id="username" name="username" placeholder="아이디를 입력해주세요">
+                <br>
+                <label for="password">비밀번호:</label>
+                <input type="password" id="password" name="password" placeholder="비밀번호를 입력해주세요">
+                <br>
+                <button type="submit" id="btnlogin">로그인</button>
+                <a href="#">회원가입</a>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>

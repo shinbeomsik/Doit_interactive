@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    background: gray;
+}
+
+#header .inner {
+    width: 1180px;
+    height: 80px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#header .inner h1 {
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+}
+
+#header .inner h1 a{
+   color: wheat;
+}
+
+#header .inner #gnb {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+
+#header .inner #gnb li{
+    float: left;
+}
+
+#header .inner #gnb li a{
+    display: block;
+    font: bold;
+    font-size: 24px;
+    line-height: 1px;
+    color: #555;
+    padding: 20px 40px;
+    transition: all 0.5s;
+}
+
+#header .inner #gnb li a:hover{
+    background: #000;
+    color: #fff;
+}
