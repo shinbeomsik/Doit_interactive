@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>프로필페이지</title> 
+    <title>프로필페이지</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/profile.css">
+    <script defer src="js/profile.js"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png"> <!--파비콘 넣음-->
 </head>
+
 <body>
-    <div id="header"> 
+    <div id="header">
         <div class="inner">
             <h1><a href="index.html">실습페이지</a></h1>
-            
+
             <ul id="gnb">
                 <li><a href="login.html">로그인</a></li>
                 <li><a href="profile.html">프로필 보기</a></li>
@@ -22,6 +27,10 @@
 
     <div id="main">
         <div class="profile-card">
+            <div id="ikon1">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-heart" aria-hidden="true" id="like"></i></a>
+            </div>
             <div class="profile-picture"><img src="img/lemon.png" alt="프로필 사진"></div>
             <table>
                 <tr>
@@ -55,4 +64,5 @@
     </div>
     <div id="footer"></div>
 </body>
+
 </html>
