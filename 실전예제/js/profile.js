@@ -14,6 +14,7 @@ let num =0;
 // "1" 과 '1' 을 == 로 비교하면 형변환을 해서 true로 나오지만 === 을 사용하면 false 가 나옴
 like.addEventListener("click", () => {
     if (like.className === "fa fa-heart") {
+        // 클래스 이름을 변경
         like.className = "fa fa-heart-o";
     } else {
         like.className = "fa fa-heart";

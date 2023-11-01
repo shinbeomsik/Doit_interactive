@@ -2,14 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+} /*모든 요소들은 기본적인 margin 과 padding 를 가지고 있어서 그걸 초기화 시켜줌*/
 
 ul {
-    list-style: none;
+    list-style: none; 
+    /* 기본적으로 있는 점을 제거 */
 }
 
 a {
     text-decoration: none;
+    /* 텍스트에 밑줄 제거 */
 }
 
 #header {
@@ -19,14 +21,14 @@ a {
 }
 
 #header .inner {
+    position: relative; /* 이 속성을 사용하면 원래 위치에서 상대적으로 이동*/
     width: 1180px;
     height: 80px;
     margin: 0px auto;
-    position: relative;
 }
 
 #header .inner h1 {
-    position: absolute;
+    position: absolute; /* 이 속성을 사용하면 레이아웃의 흐름과 관계없이 설정함*/
     left: 0px;
     bottom: 15px;
 }
@@ -52,7 +54,7 @@ a {
     line-height: 1px;
     color: #555;
     padding: 20px 40px;
-    transition: all 0.5s;
+    transition: all 0.5s; /*해당 스타일 속성의 변화가 0.5초동안 부드럽게 진행*/
 }
 
 #header .inner #gnb li a:hover{

@@ -25,10 +25,12 @@
     width: 100%;
 }
 
+/* 요소에 ::after 가상 요소를 사용하여 추가적인 빈 요소를 생성후 그 요소에 스타일 지정  */
 #ikon1::after{
     content: "";
     display: block;
     clear: both;
+    /* 부모 요소와 가상 요소 사이의 클리어를 설정해 왼쪽과 오른쪽 모두 부모 요소와 겹치는것을 방지 */
 }
 
 #ikon1 a{
@@ -81,6 +83,7 @@ table {
     margin:  0px 10px;
     opacity: 0.4;
     filter: saturate(0.7);
+    /* 색상의 흑백을 조절 */
 }
 #pronav a.on {
     opacity: 1;
